@@ -1,0 +1,574 @@
+@media screen and (min-width:300px) and (max-width:900px){
+    *{
+        overflow-x: hidden;
+    }
+    .nav{
+        height: min-content;
+    }
+    .nav2{
+        display: none;
+    }
+    .nav3 .img2{
+        display: none;
+    }
+    .nav1{
+        font-size: 20px;
+        gap: 5px;
+        width: 30%;
+    }
+    .nav3{
+        width: 40%;
+        gap: 5px;
+        margin-left: 50px;
+    }
+    .main{
+        flex-direction: column;
+        height: min-content;
+    }
+   .main1{
+    
+        margin: 0px 0px 0px 30px;
+        width: 100%;
+   }
+   .p1{
+     font-size: 40px;
+   }
+   .p2{
+        width: 80%;
+   }
+   .btnrow{
+        display: flex;
+        /* justify-content: center; */
+        margin-top: 10px;
+        flex-direction: column;
+        /* align-items: center; */
+   }
+   .main2{
+        width: 100%;
+        margin-top: 30px;
+   }
+   .main2 img{
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+    }
+    .prow1{
+        margin: 0px 0px 0px 0px !important;
+    }
+    .p4{
+        text-align: center;
+        width: 100%;
+    }
+    .box{
+        flex-direction: column;
+        height: min-content;
+    }
+    .box3{
+        height: min-content;
+    }
+    
+    .pic{
+        flex-direction: column;
+        margin-left: 65px;
+    }
+    .pic1{
+        display: none;
+    }
+    .pic2{
+        display: none;
+    }
+    .pic3{
+        display: none;
+    }
+    .mid{
+        flex-direction: column;
+        height: min-content;
+        width: 100%;
+        align-items: center;
+
+    }
+    .mid1{
+        width: 100%;
+        height: min-content;
+        
+    }
+    .mid1 img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .mid2{
+        text-align: center;
+        width: 100%;
+        height: min-content;
+        margin: 0px 0px 0px 0px;
+    }
+    .p5{
+        width: 100%;
+
+    }
+    .wprofile{
+        justify-content: center;
+        align-items: center;
+    }
+    .low{
+        flex-direction: column;
+        width: 100%;
+        height: min-content;
+        margin: 0;
+        margin-top: 30px;
+        
+    }
+
+    .low2{
+        margin-left: 0;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: min-content;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .f1{
+        width: 100%;
+    }
+    .f2{
+        height: min-content;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .l1{
+        width: 40%;
+    }
+    .l2{
+        width: 40%;
+    }
+    .f2 button{
+        margin: 0;
+        width: 120px;
+        margin-left: 30px;
+    }
+    .pl{
+        padding-bottom: 30px;
+    }
+   
+
+}
+
+
+
+@media screen and (min-width:400px) and (max-width:500px){
+    *{
+        overflow-x: hidden;
+    }
+    
+    .main1{
+        margin-left: 50px;
+    }
+    .box p{
+        font-size: 17px;
+        width: 100% !important;
+    }
+    .box3{
+        width: 100%;
+    }
+    .pic{
+        margin-left: 45px;
+    }
+    
+    
+
+
+}
+
+@media screen and (min-width:501px) and (max-width:600px){
+    *{
+        overflow-x: hidden;
+    }
+    .nav3{
+        margin-left: 90px;
+    }
+    .btnrow{
+        align-items: center;
+        margin-left: -70px;
+        
+    }
+    .box{
+        margin-left: 40px;
+    }
+    .box3{
+        margin-left: -40px;
+    }
+    .pic0{
+        margin-left: 55px;
+    }
+    .low .btn3{
+        margin-left: 90px;
+    }
+    .low2 img{
+        margin-left: 60px;
+    }
+    .f1{
+        margin-left: 45px;
+    }
+
+}
+
+
+@media screen and (min-width:601px) and (max-width:700px){
+    *{
+        overflow-x: hidden;
+    }
+    .nav3{
+        margin-left: 200px;
+    }
+    .btnrow{
+        align-items: center;
+        margin-left: -70px;
+        
+    }
+ 
+    .box{
+        margin-left: 100px;
+    }
+    .box3{
+        margin-left: 0px;
+    }
+    .pic0{
+        margin-left: 95px;
+    }
+    .low .btn3{
+        margin-left: 140px;
+    }
+    .low2 img{
+        margin-left: 120px;
+    }
+    .f1{
+        margin-left: 45px;
+    }
+
+}
+
+
+@media screen and (min-width:701px) and (max-width:800px){
+    *{
+        overflow-x: hidden;
+    }
+    .nav3{
+        margin-left: 250px;
+    }
+    .btnrow{
+        align-items: center;
+        margin-left: -70px;
+        
+    }
+ 
+    .box{
+        margin-left: 150px;
+    }
+    .pic{
+        flex-direction: row;
+        margin: 0;
+        padding: 30px;
+    }
+    .pic0{
+        margin: 0;
+    }
+    .pic1{
+        display: block;
+    }
+    .low .btn3{
+        margin-left: 190px;
+    }
+    .low2 img{
+        margin-left: 170px;
+    }
+
+    .f1{
+        margin-left: 45px;
+    }
+
+}
+
+@media screen and (min-width:801px) and (max-width:900px){
+    *{
+        overflow-x: hidden;
+    }
+    .nav3{
+        margin-left: 290px;
+    }
+ 
+    .box{
+        margin-left: 200px;
+    }
+    .pic{
+        flex-direction: row;
+        margin: 0;
+        padding: 30px;
+    }
+    .pic0{
+        margin: 0;
+    }
+    .pic1{
+        display: block;
+    }
+    .low .btn3{
+        margin-left: 240px;
+    }
+    .low2 img{
+        margin-left: 230px;
+    }
+
+    .f1{
+        margin-left: 75px;
+        /* width: 100%; */
+    }
+    .f2{
+        margin-left: 70px;
+    }
+
+}
+
+
+@media screen and (min-width:901px) and (max-width:1023px){
+
+    *{
+        overflow-x: hidden;
+    }
+    .nav2{
+        width: 100%;
+        height: min-content;
+
+    }
+    .nav3 .img2{
+        display: none;
+    }
+    .main{
+        height: min-content;
+    }
+    .main1{
+        width: 50%;
+        margin: 0px 0px 0px 30px;
+    }
+    .main2{
+        height: min-content;
+    }
+    .main2 img{
+        width: 400px;
+        height: min-content;
+        margin-top: 100px;
+    }
+    .box{
+        flex-direction: column;
+        height: min-content;
+        align-items: center;
+    }
+    .box3{
+        height: min-content;
+    }
+    .p4{
+        text-align: center;
+        width: 100%;
+    }
+    .pic3{
+        display: none;
+    }
+    .pic{
+        width: 100%;
+    }
+    .mid{
+        flex-direction: column;
+        height: min-content;
+        width: 100%;
+        align-items: center;
+
+    }
+    .mid1{
+        width: 100%;
+        height: min-content;
+        
+    }
+    .mid1 img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .mid2{
+        text-align: center;
+        width: 100%;
+        height: min-content;
+        margin: 0px 0px 0px 0px;
+    }
+    .p5{
+        width: 100%;
+
+    }
+    .wprofile{
+        justify-content: center;
+        align-items: center;
+    }
+    .low{
+        width: 100%;
+        margin: 0;
+    }
+    .low1{
+        width: 50%;
+    }
+    
+    .low2{
+        margin-left: 0px;
+        height: min-content;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: min-content;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+   
+    .f2{
+        height: min-content;
+        width: 100%;
+    }
+    .f1{
+        margin-left: 50px;
+    }
+    .f1 br{
+        display: none;
+    }
+    .l1{
+        width: 40%;
+    }
+    .l2{
+        width: 40%;
+    }
+    .f2 button{
+        margin: 0;
+        width: 120px;
+        margin-left: 30px;
+    }
+    .pl{
+        padding-bottom: 30px;
+    }
+
+}
+
+
+
+@media screen and (min-width:1024px) and (max-width:1366px){
+
+    *{
+        overflow-x: hidden;
+    }
+    .nav3 .img2{
+        display: none;
+    }
+    .main{
+        width: 100%;
+        height: min-content;
+    }
+    .main1{
+        width: 50%;
+        margin: 0px 0px 0px 50px;
+    }
+    .p1 {
+        font-size: 50px;
+    }
+    .main2{
+        width: 40%;
+        
+    }
+    .main2 img{
+        width: 400px;
+        height: 500px;
+        object-fit: contain;
+    }
+    .block{
+        height: min-content;
+    }
+    .box3 h3{
+        margin-top: 30px;
+    }
+    
+    .pic0{
+        display: none;
+    }
+    .mid{
+        width: 100%;
+        height: min-content;
+    }
+    .mid1{
+        width: 50%;
+    }
+    .mid1 img{
+        margin-left: 0px;
+    }
+    .mid2{
+        width: 50%;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        margin-top: 100px;
+
+    }
+    .mid2 .p5{
+        width: 100%;
+    }
+    .wprofile{
+        margin-left: 130px;
+        
+    }
+    .low{
+        width: 100%;
+        margin: 0;
+    }
+    .low1{
+        width: 50%;
+    }
+    
+    .low2{
+        margin-left: 0px;
+        height: min-content;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: min-content;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+   
+    .f2{
+        height: min-content;
+        width: 100%;
+    }
+    .f1{
+        margin-left: 50px;
+    }
+    .f1 br{
+        display: none;
+    }
+    .l1{
+        width: 40%;
+    }
+    .l2{
+        width: 40%;
+    }
+    .f2 button{
+        margin: 0;
+        width: 120px;
+        margin-left: 30px;
+    }
+    .pl{
+        padding-bottom: 30px;
+    }
+
+  
+
+}
+    
